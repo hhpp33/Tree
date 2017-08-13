@@ -1,0 +1,26 @@
+{
+    "name": "hhpp33/tree",
+    "description": "tree data 使用递归生成树形数据，简单实用",
+   "keywords": [
+    "tree",
+    "无限分类",
+    "tree-data"
+  ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "awfjplh",
+            "email": "awfjplh@gmail.com"
+        }
+    ],
+    "require": {
+        
+        "php": ">=5.4"
+    },
+     "license": "MIT",
+     "autoload": {
+            "psr-4": {
+                "Tree\\": "src/"
+            }
+        }
+}
