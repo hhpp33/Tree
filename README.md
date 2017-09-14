@@ -3,7 +3,8 @@ php递归无限级树形数据
 
 ## 使用使用方法
 ```PHP
-include dirname(__DIR__).'/Tree.php';
+use  Caihui\Tree\Tree;
+require __DIR__ . '/../vendor/autoload.php';
 ```
 #### 全部数据数组
 ```PHP
