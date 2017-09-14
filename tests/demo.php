@@ -1,6 +1,6 @@
 <?php
-
-include dirname(__DIR__).'/Tree.php';
+use  Caihui\Tree\Tree;
+require __DIR__ . '/../vendor/autoload.php';
 
 $data = include __DIR__."/data.php";
 
